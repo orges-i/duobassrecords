@@ -144,9 +144,6 @@ export function Footer({ language }: FooterProps) {
             <p className="text-white/40 text-sm">
               {t.copyright}
             </p>
-            <div className="flex gap-6 text-sm text-white/40">
-              <span>Made with ❤️ in Kosovo</span>
-            </div>
           </div>
         </div>
       </div>
