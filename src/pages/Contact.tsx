@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import { Phone, Mail, Instagram, Youtube, MapPin } from 'lucide-react';
-import contactHeroImage from 'figma:asset/9a30149e90bdc184d3da347acf21ce16da7e47f8.png';
 
 interface ContactProps {
   language: string;
@@ -51,16 +50,9 @@ export default function Contact({ language }: ContactProps) {
 
   return (
     <div className="min-h-screen bg-black">
-      {/* Hero Section with Image */}
-      <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${contactHeroImage})` }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black"></div>
-        </div>
-
-        <div className="relative z-10 container mx-auto px-6 text-center">
+      {/* Header Section */}
+      <section className="pt-32 pb-20">
+        <div className="container mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -183,7 +175,7 @@ export default function Contact({ language }: ContactProps) {
         >
           <div className="h-[600px] rounded-2xl overflow-hidden border border-white/10 hover:border-[#E4213E]/50 transition-all">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.502169878975!2d21.172979780609275!3d42.64661031931044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549dbcf07f151b%3A0x43b83f6dc3c6b1bb!2sJakov%20Xoxa%2C%20Mati%201%2C%20Pristina!5e0!3m2!1sen!2s!4v1697030000000!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.502169878975!2d21.172979780609275!3d42.64661031931044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549dbcf07f151b%3A0x43b83f6dc3c6b1bb!2sJakov%20Xoxa%2C%20Mati%201%2C%20Pristina!5e0!3m2!1sen!2s!4v1697030000000!5m2!1sen!2s&q=42.64660242775536,21.173022696038934"
               width="100%"
               height="100%"
               style={{ border: 0 }}

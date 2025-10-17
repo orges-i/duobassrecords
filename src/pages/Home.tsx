@@ -90,14 +90,6 @@ export default function Home({ language }: HomeProps) {
             transition={{ duration: 0.8 }}
             className="max-w-5xl mx-auto"
           >
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="inline-block mb-6 px-6 py-2 bg-[#E4213E]/10 border border-[#E4213E]/30 rounded-full backdrop-blur-sm"
-            >
-              <span className="text-[#E4213E] uppercase tracking-wider">DuoBass Records</span>
-            </motion.div>
 
             <h1 className="text-white mb-6">
               {t.hero.title}

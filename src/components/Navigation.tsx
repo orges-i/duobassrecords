@@ -50,9 +50,9 @@ export function Navigation({ language, onLanguageChange }: NavigationProps) {
         }`}
       >
         <div className="container mx-auto px-6">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-20 py-4">
             <Link href="/" className="flex items-center gap-3 group">
-              <img src={logoImage} alt="DuoBass Records" className="h-20 w-auto transition-transform group-hover:scale-105" />
+              <img src={logoImage} alt="DuoBass Records" className="h-16 w-auto transition-transform group-hover:scale-105" />
             </Link>
 
             {/* Desktop Navigation */}
