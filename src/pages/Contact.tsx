@@ -175,7 +175,7 @@ export default function Contact({ language }: ContactProps) {
         >
           <div className="h-[600px] rounded-2xl overflow-hidden border border-white/10 hover:border-[#E4213E]/50 transition-all">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.502169878975!2d21.172979780609275!3d42.64661031931044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549dbcf07f151b%3A0x43b83f6dc3c6b1bb!2sJakov%20Xoxa%2C%20Mati%201%2C%20Pristina!5e0!3m2!1sen!2s!4v1697030000000!5m2!1sen!2s&q=42.64660242775536,21.173022696038934"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.502169878975!2d21.173033423192972!3d42.64661031931034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549dbcf07f151b%3A0x43b83f6dc3c6b1bb!2sKompleksi%20Blini%2C%20Jakov%20Xoxa%2C%20Muharrem%20Fejza%2C%20Prishtina%2010000!5e0!3m2!1sen!2s!4v1697030000000!5m2!1sen!2s"
               width="100%"
               height="100%"
               style={{ border: 0 }}
