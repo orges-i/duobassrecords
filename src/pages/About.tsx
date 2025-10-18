@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import foundersImage from 'figma:asset/089ea5095a042117f713291a5eb8665a2c0dee5c.png';
+import foundersImage from '../assets/089ea5095a042117f713291a5eb8665a2c0dee5c.png';
 
 interface AboutProps {
   language: string;

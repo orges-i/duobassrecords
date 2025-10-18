@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 import { Link } from 'wouter';
 import { Button } from '../components/ui/button';
 import { Music, Disc, ArrowRight, Play } from 'lucide-react';
-import heroImage from 'figma:asset/aea765e000172c9c240041cf02f9956547e719b2.png';
+import heroImage from '../assets/aea765e000172c9c240041cf02f9956547e719b2.png';
 
 interface HomeProps {
   language: string;

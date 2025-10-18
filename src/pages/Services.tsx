@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 import { Music, Disc, Mic2, Radio, BarChart3, Users, Headphones, Award } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Link } from 'wouter';
-import servicesHeroImage from 'figma:asset/862b0069fc0dea16db0a3c7021578468d46f230a.png';
+import servicesHeroImage from '../assets/862b0069fc0dea16db0a3c7021578468d46f230a.png';
 
 interface ServicesProps {
   language: string;

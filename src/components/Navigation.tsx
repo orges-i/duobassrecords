@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'wouter';
 import { Button } from './ui/button';
 import { Globe, Menu, X } from 'lucide-react';
-import logoImage from 'figma:asset/70b011ab5daef8d07bbe86fd809e477b8cd2ed65.png';
+import logoImage from '../assets/70b011ab5daef8d07bbe86fd809e477b8cd2ed65.png';
 
 interface NavigationProps {
   language: string;

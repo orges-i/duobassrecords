@@ -1,6 +1,6 @@
 import { Instagram, Youtube, Mail } from 'lucide-react';
 import { Link } from 'wouter';
-import logoImage from 'figma:asset/70b011ab5daef8d07bbe86fd809e477b8cd2ed65.png';
+import logoImage from '../assets/70b011ab5daef8d07bbe86fd809e477b8cd2ed65.png';
 
 interface FooterProps {
   language: string;
