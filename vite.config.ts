@@ -4,8 +4,25 @@
   import path from 'path';
 
   export default defineConfig({
-    base: '/duobassrecords/',
+    base: process.env.NODE_ENV === 'production' ? '/duobassrecords/' : '/',
     plugins: [react()],
+    server: {
+      historyApiFallback: true,
+      // Enable CORS for development
+      cors: true,
+      // This ensures that all routes fall back to index.html
+      fs: {
+        strict: false
+      }
+    },
+    // This is important for client-side routing
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks: undefined,
+        },
+      },
+    },
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {

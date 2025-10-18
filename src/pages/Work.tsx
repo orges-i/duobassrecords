@@ -28,55 +28,55 @@ const videos = [
   {
     id: 'RbigzLduO9o',
     title: 'Albina Kelmendi - Na qeli prap thana',
-    thumbnail: 'https://i.ytimg.com/an_webp/RbigzLduO9o/mqdefault_6s.webp?du=3000&sqp=CLbKyscG&rs=AOn4CLCkYYHiU0MuV1O87Aa5pegJ7Vpzww',
+    thumbnail: 'https://i.ytimg.com/vi/RbigzLduO9o/hqdefault.jpg',
     url: 'https://www.youtube.com/watch?v=RbigzLduO9o'
   },
   {
     id: 'GevDAS3vQ10',
     title: 'Dod Kalaj - Dashnia (Prod.Duo Bass Records)',
-    thumbnail: 'https://i.ytimg.com/an_webp/GevDAS3vQ10/mqdefault_6s.webp?du=3000&sqp=CNHOyscG&rs=AOn4CLC_h6AOlakAb7fogvm9vJzU0E24OA',
+    thumbnail: 'https://i.ytimg.com/vi/GevDAS3vQ10/hqdefault.jpg',
     url: 'https://www.youtube.com/watch?v=GevDAS3vQ10'
   },
   {
     id: 'RLOtZ7D6N_I',
     title: 'Duo Bass Records - Mora fjale (Remix)',
-    thumbnail: 'https://i.ytimg.com/an_webp/RLOtZ7D6N_I/mqdefault_6s.webp?du=3000&sqp=CNq-yscG&rs=AOn4CLAiYkjBWyGy_LMEbyJ9-BTaqgmeFw',
+    thumbnail: 'https://i.ytimg.com/vi/RLOtZ7D6N_I/hqdefault.jpg',
     url: 'https://www.youtube.com/watch?v=RLOtZ7D6N_I'
   },
   {
     id: 'ts0WzdGIGNA',
     title: 'Fatoni & Florioni & Atalanta Band - Qefe qefe kjo dynja',
-    thumbnail: 'https://i.ytimg.com/an_webp/ts0WzdGIGNA/mqdefault_6s.webp?du=3000&sqp=CKDHyscG&rs=AOn4CLCMT9F2-VWC7Xyqc3N3BCm8KirYUg',
+    thumbnail: 'https://i.ytimg.com/vi/ts0WzdGIGNA/hqdefault.jpg',
     url: 'https://www.youtube.com/watch?v=ts0WzdGIGNA'
   },
   {
     id: 'TFi9ru3X9eQ',
     title: 'Denik Prizreni - Do t\'kthehem ne Prishtine (COVER)',
-    thumbnail: 'https://i.ytimg.com/vi/TFi9ru3X9eQ/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAz6FZwBSreJYgoS37nLR5zL232qA',
+    thumbnail: 'https://i.ytimg.com/vi/TFi9ru3X9eQ/hqdefault.jpg',
     url: 'https://www.youtube.com/watch?v=TFi9ru3X9eQ'
   },
   {
     id: 'EOrbGyR08V4',
     title: 'Linda Hakaj & Fatoni & Florioni - Atalanta Band - Potpuri',
-    thumbnail: 'https://i.ytimg.com/an_webp/EOrbGyR08V4/mqdefault_6s.webp?du=3000&sqp=CPCvyscG&rs=AOn4CLBZnzcg6Y40lDienzZP7UPcIeW-fA',
+    thumbnail: 'https://i.ytimg.com/vi/EOrbGyR08V4/hqdefault.jpg',
     url: 'https://www.youtube.com/watch?v=EOrbGyR08V4'
   },
   {
     id: 'AYS43EpTHQI',
     title: 'Fatoni & Florioni - Atalanta Band & Koki Surle - Le t\'kallet Mahalla',
-    thumbnail: 'https://i.ytimg.com/an_webp/AYS43EpTHQI/mqdefault_6s.webp?du=3000&sqp=CNy3yscG&rs=AOn4CLAO4thJjUNcxJ87eDGeQ-7n9lrQWQ',
+    thumbnail: 'https://i.ytimg.com/vi/AYS43EpTHQI/hqdefault.jpg',
     url: 'https://www.youtube.com/watch?v=AYS43EpTHQI'
   },
   {
     id: 'Hoki0Ylojcg',
     title: 'Faton Isufi & Dani - Marshi i Agimit (prod.Duo Bass Records)',
-    thumbnail: 'https://i.ytimg.com/an_webp/Hoki0Ylojcg/mqdefault_6s.webp?du=3000&sqp=CIjKyscG&rs=AOn4CLDJ-VaBhyk79BdVigXR9tTy02I4Wg',
+    thumbnail: 'https://i.ytimg.com/vi/Hoki0Ylojcg/hqdefault.jpg',
     url: 'https://www.youtube.com/watch?v=Hoki0Ylojcg'
   },
   {
     id: 'obbHRHIVd2I',
     title: 'Fatos Hoxha ft. Ramadan Krasniqi - Një letër (COVER)',
-    thumbnail: 'https://i.ytimg.com/an_webp/obbHRHIVd2I/mqdefault_6s.webp?du=3000&sqp=COq4yscG&rs=AOn4CLDGsgbGACagaCPL2Fva3gbVpkWX1A',
+    thumbnail: 'https://i.ytimg.com/vi/obbHRHIVd2I/hqdefault.jpg',
     url: 'https://www.youtube.com/watch?v=obbHRHIVd2I'
   }
 ];
