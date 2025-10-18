@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 import tsconfigPaths from 'vite-tsconfig-paths';
-import { fileURLToPath } from 'url';
+import path from 'path';
 
 // https://vitejs.dev/config/
 // For GitHub Pages, the base should be '/REPO_NAME/'
@@ -36,7 +36,7 @@ export default defineConfig({
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
     alias: {
-      // Use tsconfig paths for all aliases
+      '@': path.resolve(__dirname, './src')
     }
   },
 });
