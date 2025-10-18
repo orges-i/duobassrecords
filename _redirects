@@ -1,5 +1,0 @@
-# Handle all routes - redirect to index.html for SPA routing
-/* /index.html 200
-
-# Required for SPA routing - this ensures all routes are handled by the client-side router
-/* /index.html 200
