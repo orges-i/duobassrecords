@@ -4,9 +4,8 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 import { fileURLToPath } from 'url';
 
 // https://vitejs.dev/config/
-// For GitHub Pages, the base should be '/REPO_NAME/'
 export default defineConfig({
-  base: '/duobassrecords/',
+  base: './',
   plugins: [
     react(),
     tsconfigPaths()
