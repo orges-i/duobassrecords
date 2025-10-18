@@ -30,13 +30,7 @@ export default defineConfig({
         chunkFileNames: 'assets/[name].[hash].js',
         assetFileNames: 'assets/[name].[hash][extname]',
         manualChunks: undefined,
-      },
-      external: [
-        'react',
-        'react-dom',
-        '@radix-ui/react-slot',
-        ...Object.keys(require('./package.json').dependencies || {})
-      ]
+      }
     },
   },
   resolve: {
