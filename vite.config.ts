@@ -4,13 +4,12 @@
   import path from 'path';
 
   export default defineConfig({
-    base: process.env.NODE_ENV === 'production' ? '/duobassrecords/' : '/',
+    base: process.env.NODE_ENV === 'production' ? '/DuoBass-Records-Website/' : '/',
     plugins: [react()],
     server: {
-      historyApiFallback: true,
-      // Enable CORS for development
+      port: 3000,
+      open: true,
       cors: true,
-      // This ensures that all routes fall back to index.html
       fs: {
         strict: false
       }
@@ -74,10 +73,6 @@
     },
     build: {
       target: 'esnext',
-      outDir: 'build',
-    },
-    server: {
-      port: 3000,
-      open: true,
-    },
+      outDir: 'dist',
+    }
   });
