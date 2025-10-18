@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc';
 import path from 'path';
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/duobassrecords/' : '/',
+  base: '/duobassrecords/',
   plugins: [react()],
   server: {
     port: 3000,
